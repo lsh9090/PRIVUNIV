@@ -1,0 +1,55 @@
+
+body{
+    font-family: 'Do Hyeon', sans-serif;
+}
+  h1{
+  text-align:center;
+  border-bottom:3px solid black;
+  margin:0;
+  padding:20px;
+  font-size: 40px;
+  }
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+    padding-left: 30px;
+    border-right: 3px solid black;
+    margin:0;
+    padding:20px;
+    line-height: 30px;
+    font-size: 23px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    padding-left: 5px;
+  }
+  #article{
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  p{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 20px;
+  }
+  h2{
+    font-weight: lighter;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+@media(max-width:600px)  {
+  #grid{
+    display: block;
+  }
+  ul{
+   border-right: none;
+  }
+  h1{
+    border-left: none;
+  }
+}
